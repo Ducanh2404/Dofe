@@ -1,0 +1,20 @@
+.navbar{
+    background-image: url(/Dofe/img/279100714_297374525893521_1478490873479549619_n.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-items{
+    display:flex;
+}
+.navbar-items li{
+    list-style: none;
+
+}
+.navbar-items a{
+    text-decoration: none;
+    color: black;
+
+}
+.navbar-items ul{
+
+}
