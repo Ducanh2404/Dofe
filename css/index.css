@@ -1,17 +1,39 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
 .navbar{
-    background-image: url(/Dofe/img/279100714_297374525893521_1478490873479549619_n.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: fixed!important;
+    background-color:rgb(54, 19, 9,0.8);
 }
-.row .nav-left{
-    display:flex;
-}
-.nav-left li{
-    list-style: none;
 
-}
-.nav-left a{
+.navbar a{
     text-decoration: none;
-    color: black;
-
+    color: white;
 }
+.navbar-logo img{
+    border-radius:50%;
+}
+.nav-items{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.nav-items img{
+    border-radius:50%;
+}
+.nav-items li{
+    display:block;
+    list-style: none;
+    padding:22px!important;
+}
+.nav-items li.active{
+    background-color: #ffe5b4;
+}
+.nav-items li.active a{color:black}
+
+.nav-items li:hover{
+    background-color: #ffe5b4;
+    transition:0.5s linear;
+}
+.nav-items li:hover a{color:black   }
