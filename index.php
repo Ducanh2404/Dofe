@@ -25,8 +25,15 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <img src="img/container.jpg" width="100%" height="90%" alt="">
+    <div class="container-fluid position-relative" style="height:110vh" >
+        <div class="row background">
+            <div class="col-sm-12" style="background-color:#402218;;opacity:0.6;"> 
+                <div class="title-header">
+                    <a href="index.php" style="text-decoration:none;color:inherit">Dofé Coffee</a>
+                </div>
+            </div>
+        </div>
+
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
