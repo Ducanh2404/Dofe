@@ -4,7 +4,8 @@
 }
 .navbar{
     position: fixed!important;
-    background-color:rgb(54, 19, 9,0.8);
+    background-color:rgb(54, 19, 9,0.6);
+    box-shadow:0 0 10px 0 black;
 }
 
 .navbar a{
@@ -18,14 +19,16 @@
     display: flex;
     justify-content:center;
     align-items: center;
+    height: 90px;
+    overflow: hidden;
 }
 .nav-items img{
     border-radius:50%;
 }
 .nav-items li{
-    display:block;
+    display:inline-block;
     list-style: none;
-    padding:22px!important;
+    padding:34px!important;
 }
 .nav-items li.active{
     background-color: #ffe5b4;
