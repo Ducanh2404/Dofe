@@ -18,7 +18,7 @@
                 <ul class="nav-items">
                     <li class="active"><a href="">Trang Chủ</a></li>
                     <li><a href="">Thực Đơn</a></li>
-                    <a href="index.php" ><img src="img/logo1.jpg" width="90px" height="90px" style="margin:0 5px!important"></a>
+                    <a href="index.php"  ><img src="img/logo1.jpg" width="90px" height="90px" style="margin:0 5px!important"></a>
                     <li><a href="">Về Dofé</a> </li>
                     <li><a href="">Tuyển Dụng</a> </li>
                 </ul>
